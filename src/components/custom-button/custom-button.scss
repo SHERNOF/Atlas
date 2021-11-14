@@ -1,0 +1,19 @@
+.custom-button {
+    opacity: .5;
+    min-width: 150px;
+    width: auto;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(255,255,255, 0);
+    transition: 0.1s;
+    &:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+      }
+}

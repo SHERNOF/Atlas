@@ -1,0 +1,23 @@
+.cards{
+
+    position: relative;
+    width: 340px;
+    height: 200px;
+    
+    
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    
+    
+    background-image: linear-gradient(to left top, #1c8ff0, #3e9df3, #57aaf5, #6fb7f7, #86c4f8);
+    
+    border: .5px solid #555657;
+    border: 1px solid red;
+
+    & .content {
+        
+    }
+    
+}
